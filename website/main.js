@@ -14,7 +14,7 @@ const innerWidth = width - margin.left - margin.right;
 const innerHeight = height - margin.top - margin.bottom;
 
 // Load the CSV data
-d3.csv("/../suicides_data.csv").then(data => {
+d3.csv("website/master.csv").then(data => {
     // Process the data
     const processData = (country) => {
         // Filter data based on selected country and last 5 years
